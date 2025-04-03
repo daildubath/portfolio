@@ -45,6 +45,8 @@ def check():
 
     # Check horizontal
     for column in range(7):
+        p1 = 0
+        p2 = 0
         for row in range(7):
             if grid[column][row] == 'X':
                 p1 += 1
@@ -67,6 +69,8 @@ def check():
 
     # Check vertical
     for row in range(7):
+        p1 = 0
+        p2 = 0
         for column in range(7):
             if grid[column][row] == 'X': 
                 p1 += 1
@@ -107,6 +111,8 @@ def check():
     p2 = 0
 
     for diag in range(13):  # Check diagonals
+        p1 = 0
+        p2 = 0
         for cross in range(7):
             if diag1[cross][diag] == 'X':  
                 p1 += 1
@@ -147,6 +153,8 @@ def check():
     p2 = 0
 
     for diag in range(13):  # Check diagonals
+        p1 = 0
+        p2 = 0
         for cross in range(7):
             if diag2[cross][diag] == 'X':  
                 p1 += 1
