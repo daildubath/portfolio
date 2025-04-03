@@ -1,4 +1,4 @@
-// Built for the class Programming with Classes
+// Built for the class Programming with Classes to demonstrate inheritance
 // A personal added focus I gave when building was the look and feel.
 // I wanted the program to be uplifting and relaxing, and easy to use.
 class Program
