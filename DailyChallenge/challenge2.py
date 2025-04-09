@@ -39,8 +39,8 @@ def find_first(array):
 
 def get_array():
     numbers = []
-    for i in range(10):
-        randomInt = random.randint(1, 10)
+    for i in range(15):
+        randomInt = random.randint(-7, 7)
         numbers.append(randomInt)
     return numbers
 
@@ -49,5 +49,7 @@ def get_array():
 
 for i in range(15):
     array = get_array()
-    print(f"In {array} the lowest missing positive int is {find_first(array)}.")
+    lowest_int = find_first(array)
+    array.sort()
+    print(f"In {array} the lowest missing positive int is {lowest_int}.")
     print()
